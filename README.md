@@ -129,3 +129,62 @@ Chipsystem, Animationen und Soundeffekte.
 | 18.A  | 20.12.2024  | Team      | Tägliche Team-Sitzungen (5 Min/Tag)        | 30 min total  |
 
 
+## 4. Realisieren
+
+| AP-№  | Datum       | Zuständig  | Geplante Zeit | Tatsächliche Zeit |
+|-------|-------------|------------|---------------|-------------------|
+| 1.A   | 15.11.2024  | Marku      | 150 min       | 160 min           |
+| 2.A   | 06.11.2024  | Marku      | 160 min       | 165 min           |
+| 3.A   | 15.11.2024  | Jashari    | 150 min       | 150 min           |
+| 4.A   | 22.11.2024  | Team       | 120 min       | 130 min           |
+| 5.A   | 22.11.2024  | Team       | 150 min       | 155 min           |
+| 6.A   | 29.11.2024  | Jashari    | 180 min       | 185 min           |
+| 7.A   | 29.11.2024  | Team       | 120 min       | 120 min           |
+| 8.A   | 29.11.2024  | Angelov    | 180 min       | 190 min           |
+| 9.A   | 20.11.2024  | Jashari    | 140 min       | 140 min           |
+| 10.A  | 06.12.2024  | Marku      | 130 min       | 130 min           |
+| 11.A  | 13.11.2024  | Angelov    | 150 min       | 150 min           |
+| 12.A  | 13.12.2024  | Team       | 120 min       | 125 min           |
+| 13.A  | 06.12.2024  | Angelov    | 150 min       | 150 min           |
+| 14.A  | 06.12.2024  | Jashari    | 150 min       | 155 min           |
+| 15.A  | 20.12.2024  | Team       | 120 min       | 120 min           |
+| 16.A  | 20.12.2024  | Team       | 120 min       | 120 min           |
+| 17.A  | 20.12.2024  | Team       | 180 min       | 180 min           |
+| 18.A  | 20.12.2024  | Team       | 30 min total  | 30 min total      |
+
+## 5. Kontrollieren
+
+### 5.1 Testprotokoll
+
+| TC-№ | Datum       | Resultat | Tester      | Verknüpfte US |
+|------|-------------|----------|-------------|---------------|
+| 1.1  | 20.12.2024  | OK       | Marku       | US-1          |
+| 2.1  | 20.12.2024  | OK       | Angelov     | US-2          |
+| 3.1  | 20.12.2024  | OK       | Jashari     | US-3          |
+| 4.1  | 20.12.2024  | OK       | Angelov     | US-4          |
+| 5.1  | 20.12.2024  | OK       | Team        | US-5          |
+| 6.1  | 20.12.2024  | OK       | Marku       | US-6          |
+| 7.1  | 20.12.2024  | OK       | Angelov     | US-7          |
+| 8.1  | 20.12.2024  | OK       | Jashari     | US-8          |
+| 9.1  | 20.12.2024  | OK       | Marku       | US-9          |
+| 10.1 | 20.12.2024  | OK       | Team        | US-10         |
+| 11.1 | 20.12.2024  | OK       | Angelov     | US-11         |
+| 12.1 | 20.12.2024  | OK       | Team        | US-12         |
+| 13.1 | 20.12.2024  | OK       | Jashari     | US-13         |
+| 14.1 | 20.12.2024  | OK       | Marku       | US-14         |
+
+## 7. Teamsitzungsbericht
+
+| Datum       | Erledigte Arbeitspakete                                                                                                                | Nächste Arbeitspakete                                                                                               | Verzögerungen | Änderungen                                                                           | Pro                                                           | Con                                              |
+|-------------|----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|---------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------|
+| 08.11.2024  | Gesamtplanung und Aufteilung der Arbeitspakete abgeschlossen, grundlegender Projektplan steht                                           | Erste Umsetzungsschritte einleiten, Basis-Gameplay entwickeln                                                       | Keine         | Keine                                                                                | Klarer Projektplan, klare Rollenverteilung                     | Noch keine Umsetzung erfolgt                      |
+| 15.11.2024  | Grundstruktur erstellt, erste UI-Entwürfe, Basis-Gameplay (Karten ziehen, Punkte berechnen)                                            | „Double Down“- & „Split“-Funktionen, UI-Optimierungen, Testen & Debugging, Punktesystem & Highscore-Liste            | Keine         | Keine                                                                                | Solide Basis und erster Spielablauf                              | Noch kein erweitertes Gameplay (Double Down, Split)            |
+| 22.11.2024  | „Double Down“- und „Split“-Funktionen, UI-Optimierungen, Testen & Debugging, Punktesystem & Highscore-Liste                            | Chipsystem mit Einsätzen, Integration einer Datenbank für Highscores/Statistiken, Einstellungsseite für Limits/Anzahl | Keine         | Keine                                                                                | Erweiterte Spielmechaniken und stabilere UI                     | Noch kein Einsatzsystem, keine persistente Datenspeicherung     |
+| 29.11.2024  | Chipsystem mit virtuellen Einsätzen, Datenbankanbindung (Highscores, Stats), Einstellungsseite für Limits und Spieleranzahl            | Code-Optimierung, Interaktives Tutorial, Animationen für Kartenbewegungen                                             | Keine         | Keine                                                                                | Wetten möglich, persistente Datenspeicherung, konfigurierbares Spiel | Code noch nicht optimiert, kein Tutorial, keine Animationen       |
+| 06.12.2024  | Code-Optimierung, Interaktives Tutorial, Animationen für Kartenbewegungen                                                              | Fehlerbehandlung erweitern (ungültige Aktionen), Zeitlimit einbauen, Achievements hinzufügen                         | Keine         | Keine                                                                                | Strukturierter Code, verbessertes Spielerlebnis durch Tutorial & Animationen | Noch kein Zeitlimit, keine Achievements                        |
+| 13.12.2024  | Fehlerbehandlung erweitert, Dokumentation fortgeführt, Programmablauf kontrolliert                                                     | Mahara-Portfolios schreiben, Dokumentation fertigstellen, letzte Anpassungen                                         | Keine         | Zeitlimit & Achievements entfallen, Entscheidung der Gruppe                         | Fehlerfreiere Anwendung, bessere Dokumentation                  | Keine neuen Herausforderungen wie Zeitlimit oder Achievements   |
+| 20.12.2024  | Mahara-Portfolios fertiggestellt, Dokumentation abgeschlossen, letzte Anpassungen vorgenommen                                           | Produktübergabe, Abschlusspräsentation                                                                               | Keine         | Keine                                                                                | Vollständiges Paket: Code, Doku, Portfolio                      | Keine weiteren Entwicklungsaufgaben geplant                     |
+
+
+
+
