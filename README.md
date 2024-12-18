@@ -56,20 +56,22 @@ Chipsystem, Animationen und Soundeffekte.
 
 ### Überarbeitete User Stories (ohne #14 und #15, dafür mit neuer #14 für Datenbankspeicherung)
 
-| US-№ | Verbindlichkeit | Beschreibung                                                                                                     |
-|------|-----------------|-----------------------------------------------------------------------------------------------------------------|
-| 1    | muss            | Als Spieler möchte ich mich anmelden können, um persönliche Statistiken und Highscores zu sichern und abzurufen. |
-| 2    | kann            | Als neuer Spieler möchte ich ein interaktives Tutorial nutzen, um das Spiel einfach zu erlernen.                |
-| 3    | muss            | Als Spieler möchte ich Karten ziehen können, um am Spiel teilzunehmen.                                          |
-| 4    | muss            | Als Spieler möchte ich jederzeit meinen Punktestand sehen, um meine Spielentscheidungen fundiert zu treffen.    |
-| 5    | muss            | Als erfahrener Spieler möchte ich „Double Down“ und „Split“ nutzen können, um meine Gewinnchancen zu erhöhen.   |
-| 6    | muss            | Als Spieler möchte ich nach jeder Runde wissen, ob ich gewonnen oder verloren habe, um den Spielausgang zu verstehen. |
-| 7    | muss            | Als Spieler möchte ich jederzeit ein neues Spiel starten oder das aktuelle abbrechen können, um flexibel zu bleiben. |
-| 8    | kann            | Als Spieler möchte ich virtuelle Chips setzen, um Wetteinsätze zu platzieren und das Spiel spannender zu gestalten. |
-| 9    | kann            | Als Spieler möchte ich meine In-Game-Währung verwalten (Ein-/Auszahlungen), um ein authentisches Casino-Feeling zu erhalten. |
-| 10   | kann            | Als Spieler möchte ich eine Highscore-Liste sehen, um meine Leistung mit anderen Spielern zu vergleichen.       |
-| 11   | muss            | Als Spieler möchte ich Einstellungen (z. B. Limits, Spieleranzahl) vornehmen können, um das Spiel nach meinen Vorlieben anzupassen. |
-| 12   | muss            | Als Spieler möchte ich, dass ungültige Aktionen abgefangen werden, um Fehler zu vermeiden und die Bedienung zu vereinfachen. |
+# User Stories
+
+| US-№ | Verbindlichkeit | Beschreibung                                                                                                       |
+|------|-----------------|---------------------------------------------------------------------------------------------------------------------|
+| 1    | muss            | Als Spieler möchte ich mich anmelden können, um persönliche Statistiken und Highscores zu sichern und abzurufen.    |
+| 2    | kann            | Als neuer Spieler möchte ich ein interaktives Tutorial nutzen, um das Spiel einfach zu erlernen.                  |
+| 3    | kann            | Als Spieler möchte ich virtuelle Chips setzen, um Wetteinsätze zu platzieren und das Spiel spannender zu gestalten. |
+| 4    | muss            | Als Spieler möchte ich Karten ziehen können, um am Spiel teilzunehmen.                                             |
+| 5    | muss            | Als Spieler möchte ich, dass ungültige Aktionen abgefangen werden, um Fehler zu vermeiden.                          |
+| 6    | muss            | Als Spieler möchte ich jederzeit meinen Punktestand sehen, um fundierte Spielentscheidungen zu treffen.             |
+| 7    | muss            | Als erfahrener Spieler möchte ich „Stand“, „Double Down“ und „Split“ nutzen können.                                 |
+| 8    | muss            | Als Spieler möchte ich nach jeder Runde wissen, ob ich gewonnen oder verloren habe, um den Spielausgang zu verstehen. |
+| 9    | muss            | Als Spieler möchte ich jederzeit ein neues Spiel starten oder das aktuelle abbrechen können, um flexibel zu bleiben. |
+| 10   | kann            | Als Spieler möchte ich meine In-Game-Währung verwalten (Ein-/Auszahlungen), um ein authentisches Casino-Feeling zu erhalten. |
+| 11   | kann            | Als Spieler möchte ich eine Highscore-Liste sehen, um meine Leistung mit anderen Spielern zu vergleichen.          |
+| 12   | muss            | Als Spieler möchte ich Einstellungen (z. B. Limits, Spieleranzahl) vornehmen können, um das Spiel anzupassen.       |
 | 13   | kann            | Als Spieler möchte ich animierte Kartenbewegungen und visuelle Effekte sehen, um ein ansprechendes Spielerlebnis zu genießen. |
 | 14   | muss            | Als Entwickler möchte ich eine Datenbankanbindung, um Spielerprofile, Highscores und Statistiken langfristig zu speichern. |
 
@@ -78,79 +80,55 @@ Chipsystem, Animationen und Soundeffekte.
 
 ### 1.3 Testfälle
 
-### Überarbeitete Testfälle zu den neuen User Stories (US-1 bis US-14)
+| **TC-№** | **Ausgangslage**           | **Eingabe**                                   | **Erwartete Ausgabe**                                        | **Zugehörige US** |
+|----------|----------------------------|-----------------------------------------------|---------------------------------------------------------------|-------------------|
+| 1.1      | Anmeldeseite offen         | Benutzername und Passwort eingeben            | Benutzer wird erfolgreich angemeldet                          | US-1              |
+| 2.1      | Spielstart                 | Tutorial starten                              | Tutorial führt Schritt-für-Schritt durch das Spiel            | US-2              |
+| 3.1      | Chipsystem aktiviert       | Spieler setzt Chips                           | Chips werden korrekt vom Guthaben abgezogen (Wetteinsatz)     | US-3              |
+| 4.1      | Spielstart                 | Spieler zieht eine Karte                      | Eine Karte wird dem Spieler hinzugefügt                       | US-4              |
+| 5.1      | Kartenstapel leer          | Karte ziehen                                  | Fehler wird abgefangen, Meldung erscheint                     | US-5              |
+| 6.1      | Spieler hat Karten         | Punktestand berechnen                         | Punktestand wird korrekt angezeigt                            | US-6              |
+| 7.1      | Spieler hat Karten         | Aktion „Double Down“ auswählen                | Einsatz wird verdoppelt und eine Karte gezogen                | US-7              |
+| 8.1      | Spielende                  | Gewinn-/Verlustlogik prüfen                   | Spieler erhält Ergebnis „Gewonnen“ oder „Verloren“            | US-8              |
+| 9.1      | Spielende                  | Spiel neu starten                             | Ein neues Spiel beginnt, Karten werden neu gemischt           | US-9              |
+| 10.1     | In-Game-Währung aktiviert  | Chips ein- oder auszahlen                     | Transaktion wird korrekt ausgeführt, Guthaben wird aktualisiert | US-10             |
+| 11.1     | Spielende                  | Highscore-Liste anzeigen                      | Highscore-Liste wird korrekt dargestellt                      | US-11             |
+| 12.1     | Einstellungsseite offen    | Limits und Spieleranzahl bearbeiten           | Änderungen werden erfolgreich übernommen                      | US-12             |
+| 13.1     | Animation aktiviert        | Karte ziehen                                  | Animation für Kartenbewegungen wird angezeigt                 | US-13             |
+| 14.1     | Datenbankanbindung aktiv   | Spiel beenden / Highscore speichern           | Spielerprofil, Highscores und Statistiken werden persistiert   | US-14             |
 
-| **TC-№** | **Ausgangslage**         | **Eingabe**                                  | **Erwartete Ausgabe**                                   | **Zugehörige US** |
-|----------|--------------------------|----------------------------------------------|---------------------------------------------------------|-------------------|
-| 1.1      | Anmeldeseite offen       | Benutzername und Passwort eingeben           | Benutzer wird erfolgreich angemeldet                    | US-1              |
-| 2.1      | Spielstart               | Tutorial starten                             | Tutorial führt Schritt-für-Schritt durch das Spiel      | US-2              |
-| 3.1      | Spielstart               | Spieler zieht eine Karte                     | Eine Karte wird dem Spieler hinzugefügt                 | US-3              |
-| 4.1      | Spieler hat Karten       | Punktestand berechnen                        | Punktestand wird korrekt angezeigt                      | US-4              |
-| 5.1      | Spieler hat Karten       | Aktion „Karte ziehen“ auswählen              | Eine zusätzliche Karte wird gezogen                     | US-3              |
-| 5.2      | Spieler hat Karten       | Aktion „Double Down“ auswählen               | Einsatz wird verdoppelt und eine Karte gezogen          | US-5              |
-| 6.1      | Spieler hat ein Paar     | Aktion „Split“ auswählen                     | Hand wird in zwei separate Hände aufgeteilt             | US-5              |
-| 7.1      | Spielende                | Gewinn-/Verlustlogik prüfen                  | Spieler erhält Ergebnis „Gewonnen“ oder „Verloren“      | US-6              |
-| 8.1      | Spielende                | Spiel neu starten                            | Ein neues Spiel beginnt, Karten werden neu gemischt     | US-7              |
-| 9.1      | Chipsystem aktiviert     | Spieler setzt Chips                          | Chips werden korrekt vom Guthaben abgezogen (Wetteinsatz)| US-8              |
-| 9.2      | In-Game-Währung aktiviert| Chips ein- oder auszahlen                    | Transaktion wird korrekt ausgeführt, Guthaben aktualisiert | US-9            |
-| 10.1     | Spielende                | Highscore-Liste anzeigen                     | Highscore-Liste wird korrekt dargestellt                | US-10             |
-| 11.1     | Einstellungsseite offen  | Limits und Spieleranzahl bearbeiten          | Änderungen werden erfolgreich übernommen                | US-11             |
-| 12.1     | Kartenstapel leer        | Karte ziehen                                 | Fehler wird abgefangen, Meldung erscheint               | US-12             |
-| 13.1     | Animation aktiviert      | Karte ziehen                                 | Animation für Kartenbewegungen wird angezeigt           | US-13             |
-| 14.1     | Datenbankanbindung aktiv | Spiel beenden / Highscore speichern          | Spielerprofil, Highscores und Statistiken werden persistiert | US-14        |
+
 
 
 
 
 ### 1.4 Diagramme
-
-## 2. Planen
-
+# Planen
 
 | AP-№  | Frist       | Zuständig | Beschreibung                                                            | Zugehörige US | Geplante Zeit |
 |-------|-------------|-----------|------------------------------------------------------------------------|---------------|---------------|
 | 1.A   | 15.11.2024  | Marku     | Anmeldefunktion einbauen                                                | US-1          | 150 min       |
-| 2.A  | 06.11.2024  | Marku     | Interaktives Tutorial erstellen                                         | US-2          | 160 min       |
-| 3.A   | 15.11.2024  | Jashari   | Kartenmisch- und Ziehfunktion entwickeln                                | US-3          | 150 min       |
-| 4.A   | 22.11.2024  |           | Punktestand berechnen und anzeigen                                      | US-4          | 120 min       |
-| 5.A   | 22.11.2024  |           | „Double Down“ und „Split“ implementieren                                | US-5          | 150 min       |
-| 6.A   | 29.11.2024  | Jashari   | Gewinn-/Verlustlogik prüfen und ausgeben                                | US-6          | 180 min       |
-| 7.A   | 29.11.2024  |           | Spiel-Neustart-Funktion einbauen                                        | US-7          | 120 min       |
-| 8.A   | 29.11.2024  | Angelov   | Chipsystem für virtuelle Einsätze entwickeln                             | US-8          | 180 min       |
-| 9.A  | 20.11.2024  | Jashari   | In-Game-Währung entwickeln (Ein-/Auszahlungen)                           | US-9          | 140 min       |
-| 10.A  | 06.12.2024  | Marku     | Highscore-Liste implementieren                                           | US-10         | 130 min       |
-| 11.A  | 13.11.2024  | Angelov   | Einstellungsseite für Limits und Spieleranzahl hinzufügen                | US-11         | 150 min       |
-| 12A  | 13.12.2024  | Team      | Fehlerbehandlung erweitern (z. B. leeres Kartendeck)                     | US-12         | 120 min       |
-| 13.A   | 06.12.2024  | Angelov   | Animationen für Kartenbewegungen hinzufügen                              | US-13         | 150 min       |
-| 14A   | 06.12.2024  | Jashari   | Datenbankanbindung implementieren (Spielerprofile, Highscores, Stats)    | US-14         | 150 min       |
-| 15.A  | 20.12.2024  | Team      | Projektdokumentation fertigstellen         | 120 min       |
-| 16.A  | 20.12.2024  | Team      | Mahara-Portfolio schreiben                 | 120 min       |
-| 17.A  | 20.12.2024  | Team      | Finale Tests und Debugging                 | 180 min       |
-| 18.A  | 20.12.2024  | Team      | Tägliche Team-Sitzungen (5 Min/Tag)        | 30 min total  |
+| 2.A   | 06.11.2024  | Marku     | Interaktives Tutorial erstellen                                         | US-2          | 160 min       |
+| 3.A   | 29.11.2024  | Angelov   | Chipsystem für virtuelle Einsätze entwickeln                             | US-3          | 180 min       |
+| 4.A   | 15.11.2024  | Jashari   | Kartenmisch- und Ziehfunktion entwickeln                                | US-4          | 150 min       |
+| 5.A   | 13.12.2024  | Team      | Fehlerbehandlung erweitern (z. B. leeres Kartendeck)                     | US-5          | 120 min       |
+| 6.A   | 22.11.2024  |           | Punktestand berechnen und anzeigen                                      | US-6          | 120 min       |
+| 7.A   | 22.11.2024  |           | „Double Down“ und „Split“ implementieren                                | US-7          | 150 min       |
+| 8.A   | 29.11.2024  | Jashari   | Gewinn-/Verlustlogik prüfen und ausgeben                                | US-8          | 180 min       |
+| 9.A   | 29.11.2024  |           | Spiel-Neustart-Funktion einbauen                                        | US-9          | 120 min       |
+| 10.A  | 20.11.2024  | Jashari   | In-Game-Währung entwickeln (Ein-/Auszahlungen)                           | US-10         | 140 min       |
+| 11.A  | 06.12.2024  | Marku     | Highscore-Liste implementieren                                           | US-11         | 130 min       |
+| 12.A  | 13.11.2024  | Angelov   | Einstellungsseite für Limits und Spieleranzahl hinzufügen                | US-12         | 150 min       |
+| 13.A  | 06.12.2024  | Angelov   | Animationen für Kartenbewegungen hinzufügen                              | US-13         | 150 min       |
+| 14.A  | 06.12.2024  | Jashari   | Datenbankanbindung implementieren (Spielerprofile, Highscores, Stats)    | US-14         | 150 min       |
+| 15.A  | 20.12.2024  | Team      | Projektdokumentation fertigstellen                                       | -             | 120 min       |
+| 16.A  | 20.12.2024  | Team      | Mahara-Portfolio schreiben                                               | -             | 120 min       |
+| 17.A  | 20.12.2024  | Team      | Finale Tests und Debugging                                               | -             | 180 min       |
+| 18.A  | 20.12.2024  | Team      | Tägliche Team-Sitzungen (5 Min/Tag)                                      | -             | 30 min total  |
 
 
-## 4. Realisieren
 
-| AP-№  | Datum       | Zuständig  | Geplante Zeit | Tatsächliche Zeit |
-|-------|-------------|------------|---------------|-------------------|
-| 1.A   | 15.11.2024  | Marku      | 150 min       | 160 min           |
-| 2.A   | 06.11.2024  | Marku      | 160 min       | 165 min           |
-| 3.A   | 15.11.2024  | Jashari    | 150 min       | 150 min           |
-| 4.A   | 22.11.2024  | Team       | 120 min       | 130 min           |
-| 5.A   | 22.11.2024  | Team       | 150 min       | 155 min           |
-| 6.A   | 29.11.2024  | Jashari    | 180 min       | 185 min           |
-| 7.A   | 29.11.2024  | Team       | 120 min       | 120 min           |
-| 8.A   | 29.11.2024  | Angelov    | 180 min       | 190 min           |
-| 9.A   | 20.11.2024  | Jashari    | 140 min       | 140 min           |
-| 10.A  | 06.12.2024  | Marku      | 130 min       | 130 min           |
-| 11.A  | 13.11.2024  | Angelov    | 150 min       | 150 min           |
-| 12.A  | 13.12.2024  | Team       | 120 min       | 125 min           |
-| 13.A  | 06.12.2024  | Angelov    | 150 min       | 150 min           |
-| 14.A  | 06.12.2024  | Jashari    | 150 min       | 155 min           |
-| 15.A  | 20.12.2024  | Team       | 120 min       | 120 min           |
-| 16.A  | 20.12.2024  | Team       | 120 min       | 120 min           |
-| 17.A  | 20.12.2024  | Team       | 180 min       | 180 min           |
-| 18.A  | 20.12.2024  | Team       | 30 min total  | 30 min total      |
+
 
 ## 5. Kontrollieren
 
