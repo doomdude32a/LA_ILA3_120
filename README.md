@@ -94,6 +94,7 @@ Chipsystem, Animationen und Soundeffekte.
 
 ### 1.4 Diagramme
 
+![Blackjack mit Anmeldefunktion](https://github.com/user-attachments/assets/9a6cc01c-567c-4f1e-9ea1-04a42690e7f9)
 
 ## 2Planen
 
