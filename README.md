@@ -52,10 +52,6 @@ Chipsystem, Animationen und Soundeffekte.
 
 ### 1.2 User Stories
 
-### 1.2 User Stories
-
-### Überarbeitete User Stories (ohne #14 und #15, dafür mit neuer #14 für Datenbankspeicherung)
-
 # User Stories
 
 | US-№ | Verbindlichkeit | Beschreibung                                                                                                       |
@@ -105,17 +101,17 @@ Chipsystem, Animationen und Soundeffekte.
 ### 1.4 Diagramme
 # Planen
 
-| AP-№  | Frist       | Zuständig | Beschreibung                                                            | Zugehörige US | Geplante Zeit |
-|-------|-------------|-----------|------------------------------------------------------------------------|---------------|---------------|
-| 1.A   | 15.11.2024  | Marku     | Anmeldefunktion einbauen                                                | US-1          | 150 min       |
-| 2.A   | 06.11.2024  | Marku     | Interaktives Tutorial erstellen                                         | US-2          | 160 min       |
+| AP-№  | Frist       | Zuständig | Beschreibung                                                             | Zugehörige US | Geplante Zeit |
+|-------|-------------|-----------|--------------------------------------------------------------------------|---------------|---------------|
+| 1.A   | 15.11.2024  | Marku     | Anmeldefunktion einbauen                                                 | US-1          | 150 min       |
+| 2.A   | 06.11.2024  | Marku     | Interaktives Tutorial erstellen                                          | US-2          | 160 min       |
 | 3.A   | 29.11.2024  | Angelov   | Chipsystem für virtuelle Einsätze entwickeln                             | US-3          | 180 min       |
-| 4.A   | 15.11.2024  | Jashari   | Kartenmisch- und Ziehfunktion entwickeln                                | US-4          | 150 min       |
+| 4.A   | 15.11.2024  | Jashari   | Kartenmisch- und Ziehfunktion entwickeln                                 | US-4          | 150 min       |
 | 5.A   | 13.12.2024  | Team      | Fehlerbehandlung erweitern (z. B. leeres Kartendeck)                     | US-5          | 120 min       |
-| 6.A   | 22.11.2024  |           | Punktestand berechnen und anzeigen                                      | US-6          | 120 min       |
-| 7.A   | 22.11.2024  |           | „Double Down“ und „Split“ implementieren                                | US-7          | 150 min       |
-| 8.A   | 29.11.2024  | Jashari   | Gewinn-/Verlustlogik prüfen und ausgeben                                | US-8          | 180 min       |
-| 9.A   | 29.11.2024  |           | Spiel-Neustart-Funktion einbauen                                        | US-9          | 120 min       |
+| 6.A   | 22.11.2024  |           | Punktestand berechnen und anzeigen                                       | US-6          | 120 min       |
+| 7.A   | 22.11.2024  |           | „Double Down“ und „Split“ implementieren                                 | US-7          | 150 min       |
+| 8.A   | 29.11.2024  | Jashari   | Gewinn-/Verlustlogik prüfen und ausgeben                                 | US-8          | 180 min       |
+| 9.A   | 29.11.2024  |           | Spiel-Neustart-Funktion einbauen                                         | US-9          | 120 min       |
 | 10.A  | 20.11.2024  | Jashari   | In-Game-Währung entwickeln (Ein-/Auszahlungen)                           | US-10         | 140 min       |
 | 11.A  | 06.12.2024  | Marku     | Highscore-Liste implementieren                                           | US-11         | 130 min       |
 | 12.A  | 13.11.2024  | Angelov   | Einstellungsseite für Limits und Spieleranzahl hinzufügen                | US-12         | 150 min       |
