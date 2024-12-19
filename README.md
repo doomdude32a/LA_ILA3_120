@@ -20,7 +20,7 @@
 | 29.11.2024 | 0.3.0      | Chipsystem erstellt und Datenbank für Highscores integriert.                        |
 | 06.12.2024 | 0.4.0      | Code optimiert, interaktives Tutorial und Animationen für Kartenbewegungen ergänzt. |
 | 13.12.2024 | 0.5.0      | Fehlerbehandlung erweitert, Doku weitergeführt und Programm kontrolliert.            |
-| 20.12.2024 | 0.6.0      |    Doku fertiggestellt und Mahara-Portfolio geschrieben.                                   |
+| 20.12.2024 | 1.0.0      |    Doku fertiggestellt und Mahara-Portfolio geschrieben.                                   |
 
 
 ## 1. Informieren
