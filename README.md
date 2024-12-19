@@ -62,8 +62,8 @@ Chipsystem, Animationen und Soundeffekte.
 |------|-----------------|---------------------------------------------------------------------------------------------------------------------|
 | 1    | muss            | Als Spieler möchte ich mich anmelden können, um persönliche Statistiken und Highscores zu sichern und abzurufen.    |
 | 2    | kann            | Als neuer Spieler möchte ich ein interaktives Tutorial nutzen, um das Spiel einfach zu erlernen.                  |
-| 3    | kann            | Als Spieler möchte ich virtuelle Chips setzen, um Wetteinsätze zu platzieren und das Spiel spannender zu gestalten. |
-| 4    | muss            | Als Spieler möchte ich Karten ziehen können, um am Spiel teilzunehmen.                                             |
+| 3    | kann            | Als Spieler möchte ich virtuelle Chips setzen, um Wetteinsätze zu platzieren.                                     |
+| 4    | muss            | Als Spieler möchte ich Karten ziehen können.                                             |
 | 5    | muss            | Als Spieler möchte ich, dass ungültige Aktionen abgefangen werden, um Fehler zu vermeiden.                          |
 | 6    | muss            | Als Spieler möchte ich jederzeit meinen Punktestand sehen, um fundierte Spielentscheidungen zu treffen.             |
 | 7    | muss            | Als erfahrener Spieler möchte ich „Stand“, „Double Down“ und „Split“ nutzen können.                                 |
