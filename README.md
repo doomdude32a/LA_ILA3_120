@@ -62,8 +62,8 @@ Chipsystem, Animationen und Soundeffekte.
 | 4    | kann            | Als Spieler möchte ich virtuelle Chips setzen, um Wetteinsätze zu platzieren.                                       |
 | 5    | muss            | Als Spieler möchte ich Karten ziehen können.                                                                        |
 | 6    | muss            | Als Spieler möchte ich, dass ungültige Aktionen abgefangen werden, um Fehler zu vermeiden.                          |
-| 7    | muss            | Als Spieler möchte ich jederzeit meinen Punktestand sehen, um fundierte Spielentscheidungen zu treffen.             |
-| 8    | muss            | Als erfahrener Spieler möchte ich „Stand“, „Double Down“ und „Split“ nutzen können.                                 |
+| 7    | muss            | Als Spieler möchte ich jederzeit meinen Punktestand der Karten sehen, um fundierte Spielentscheidungen zu treffen.             |
+| 8    | muss            | Als erfahrener Spieler möchte ich „Stand“ „Hit“ und „Split“ nutzen können.                                 |
 | 9    | muss            | Als Spieler möchte ich nach jeder Runde wissen, ob ich gewonnen oder verloren habe, um den Spielausgang zu verstehen. |
 | 10    | muss            | Als Spieler möchte ich jederzeit ein neues Spiel starten oder das aktuelle abbrechen können, um flexibel zu bleiben. |
 | 11   | kann            | Als Spieler möchte ich meine In-Game-Währung verwalten (Ein-/Auszahlungen), um ein authentisches Casino-Feeling zu erhalten. |
@@ -82,8 +82,8 @@ Chipsystem, Animationen und Soundeffekte.
 | 4.1      | Chipsystem aktiviert       | Spieler setzt Chips                           | Chips werden korrekt vom Guthaben abgezogen (Wetteinsatz)     | US-4              |
 | 5.1      | Spielstart                 | Spieler zieht eine Karte                      | Eine Karte wird dem Spieler hinzugefügt                       | US-5              |
 | 6.1      | Kartenstapel leer          | Karte ziehen                                  | Fehler wird abgefangen, Meldung erscheint                     | US-6              |
-| 7.1      | Spieler hat Karten         | Punktestand berechnen                         | Punktestand wird korrekt angezeigt                            | US-7              |
-| 8.1      | Spieler hat Karten         | Aktion „Double Down“ auswählen                | Einsatz wird verdoppelt und eine Karte gezogen                | US-8              |
+| 7.1      | Spieler hat Karten         | Punktestand der karten berechnen                         | Punktestand wird korrekt angezeigt                            | US-7              |
+| 8.1      | Spieler hat Karten         | Aktion „Stop“ auswählen                | Einsatz wird verdoppelt und eine Karte gezogen                | US-8              |
 | 9.1      | Spielende                  | Gewinn-/Verlustlogik prüfen                   | Spieler erhält Ergebnis „Gewonnen“ oder „Verloren“            | US-9              |
 | 10.1      | Spielende                  | Spiel neu starten                             | Ein neues Spiel beginnt, Karten werden neu gemischt           | US-10              |
 | 11.1     | In-Game-Währung aktiviert  | Chips ein- oder auszahlen                     | Transaktion wird korrekt ausgeführt, Guthaben wird aktualisiert | US-11             |
@@ -124,25 +124,25 @@ Chipsystem, Animationen und Soundeffekte.
 
 | AP-№ | Datum       | Zuständig       | Geplante Zeit | Tatsächliche Zeit |
 |------|-------------|-----------------|---------------|-------------------|
-| 1.A  | 16.11.2024  | Marku           | 150 min       | 160 min           |
-| 2.A  | 16.11.2024  | Marku           | 150 min       | 160 min           |
-| 3.A  | 07.11.2024  | Marku           | 160 min       | 155 min           |
-| 4.A  | 30.11.2024  | Angelov         | 180 min       | 190 min           |
-| 5.A  | 16.11.2024  | Jashari         | 150 min       | 150 min           |
-| 6.A  | 14.12.2024  | Team            | 120 min       | 125 min           |
-| 7.A  | 23.11.2024  | [Zuständiger]   | 120 min       | 90 min            |
-| 8.A  | 23.11.2024  | [Zuständiger]   | 150 min       | 90 min            |
-| 9.A  | 30.11.2024  | Jashari         | 180 min       | 180 min           |
-| 10.A  | 30.11.2024  | [Zuständiger]   | 120 min       | 70 min            |
-| 11.A | 21.11.2024  | Jashari         | 140 min       | 60 min            |
-| 12.A | 07.12.2024  | Marku           | 130 min       | 80 min            |
-| 12.A | 14.11.2024  | Angelov         | 150 min       | 60 min            |
-| 13.A | 07.12.2024  | Angelov         | 150 min       | 60 min            |
-| 14.A | 07.12.2024  | Jashari         | 150 min       | 70 min            |
-| 15.A | 21.12.2024  | Team            | 120 min       | 60 min            |
-| 16.A | 21.12.2024  | Team            | 120 min       | 90 min            |
-| 17.A | 21.12.2024  | Team            | 180 min       | 50 min            |
-| 18.A | 21.12.2024  | Team            | 30 min total  | 60 min            |
+| 1.A  | 16.11.2024  | Marku           | 60min      | 60 min           |
+| 2.A  | 16.11.2024  | Marku           | 60 min       | 50 min           |
+| 3.A  | 07.11.2024  | Marku           | 90 min       | 75 min           |
+| 4.A  | 30.11.2024  | Angelov         | 90 min       | 70 min           |
+| 5.A  | 16.11.2024  | Jashari         | 70 min       | 60 min           |
+| 6.A  | 14.12.2024  | Team            | 60 min       | 70 min           |
+| 7.A  | 23.11.2024  |  Marku          | 60 min       | 70 min            |
+| 8.A  | 23.11.2024  | Jashari / Angelov  | 90 min       | 60 min            |
+| 9.A  | 30.11.2024  | Jashari        | 60 min       |  min           |
+| 10.A  | 30.11.2024  | Jashari        | 30 min       | 70 min            |
+| 11.A | 21.11.2024  | Jashari         | 60 min       | 60 min            |
+| 12.A | 07.12.2024  | Marku           | 40 min       | 80 min            |
+| 13.A | 14.11.2024  | Angelov         | 60 min       | 60 min            |
+| 14.A | 07.12.2024  | Angelov         | 90 min       | 60 min            |
+| 15.A | 07.12.2024  | Jashari         | 60 min       | 70 min            |
+| 16.A | 21.12.2024  | Team            | 180 min       | 120 min            |
+| 17.A | 21.12.2024  | Team            | 180 min       | 200 min            |
+| 18.A | 21.12.2024  | Team            | 120 min       | 100 min            |
+| 19.A | 21.12.2024  | Team            | 30 min total  | 30 min            |
 
 
 
@@ -153,19 +153,20 @@ Chipsystem, Animationen und Soundeffekte.
 | TC-№ | Datum       | Resultat | Tester      | Verknüpfte US |
 |------|-------------|----------|-------------|---------------|
 | 1.1  | 20.12.2024  | OK       | Marku       | US-1          |
-| 2.1  | 20.12.2024  | OK       | Angelov     | US-2          |
-| 3.1  | 20.12.2024  | OK       | Jashari     | US-3          |
-| 4.1  | 20.12.2024  | OK       | Angelov     | US-4          |
-| 5.1  | 20.12.2024  | OK       | Team        | US-5          |
-| 6.1  | 20.12.2024  | OK       | Marku       | US-6          |
-| 7.1  | 20.12.2024  | OK       | Angelov     | US-7          |
-| 8.1  | 20.12.2024  | OK       | Jashari     | US-8          |
-| 9.1  | 20.12.2024  | OK       | Marku       | US-9          |
-| 10.1 | 20.12.2024  | OK       | Team        | US-10         |
-| 11.1 | 20.12.2024  | OK       | Angelov     | US-11         |
-| 12.1 | 20.12.2024  | OK       | Team        | US-12         |
-| 13.1 | 20.12.2024  | OK       | Jashari     | US-13         |
-| 14.1 | 20.12.2024  | OK       | Marku       | US-14         |
+| 2.1  | 20.12.2024  | OK       | Marku       | US-2          |
+| 3.1  | 20.12.2024  | OK       | Angelov     | US-3          |
+| 4.1  | 20.12.2024  | OK       | Jashari     | US-4          |
+| 5.1  | 20.12.2024  | OK       | Angelov     | US-5          |
+| 6.1  | 20.12.2024  | OK       | Team        | US-6          |
+| 7.1  | 20.12.2024  | OK       | Marku       | US-7          |
+| 8.1  | 20.12.2024  | OK       | Angelov     | US-8          |
+| 9.1  | 20.12.2024  | OK       | Jashari     | US-9          |
+| 10.1  | 20.12.2024  | OK       | Marku       | US-10          |
+| 11.1 | 20.12.2024  | OK       | Team        | US-11         |
+| 12.1 | 20.12.2024  | OK       | Angelov     | US-12         |
+| 13.1 | 20.12.2024  | OK       | Team        | US-13         |
+| 14.1 | 20.12.2024  | OK       | Jashari     | US-14         |
+| 15.1 | 20.12.2024  | OK       | Marku       | US-15         |
 
 ## 7. Teamsitzungsbericht
 
