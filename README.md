@@ -71,9 +71,6 @@ Chipsystem, Animationen und Soundeffekte.
 | 13   | kann            | Als Spieler möchte ich animierte Kartenbewegungen und visuelle Effekte sehen, um ein ansprechendes Spielerlebnis zu genießen. |
 | 14   | muss            | Als Entwickler möchte ich eine Datenbankanbindung, um Spielerprofile, Highscores und Statistiken langfristig zu speichern. |
 
-
----
-
 ### 1.3 Testfälle
 
 | **TC-№** | **Ausgangslage**           | **Eingabe**                                   | **Erwartete Ausgabe**                                        | **Zugehörige US** |
@@ -93,13 +90,10 @@ Chipsystem, Animationen und Soundeffekte.
 | 13.1     | Animation aktiviert        | Karte ziehen                                  | Animation für Kartenbewegungen wird angezeigt                 | US-13             |
 | 14.1     | Datenbankanbindung aktiv   | Spiel beenden / Highscore speichern           | Spielerprofil, Highscores und Statistiken werden persistiert   | US-14             |
 
-
-
-
-
-
 ### 1.4 Diagramme
-# Planen
+
+
+## 2Planen
 
 | AP-№  | Frist       | Zuständig | Beschreibung                                                             | Zugehörige US | Geplante Zeit |
 |-------|-------------|-----------|--------------------------------------------------------------------------|---------------|---------------|
@@ -122,7 +116,28 @@ Chipsystem, Animationen und Soundeffekte.
 | 17.A  | 20.12.2024  | Team      | Finale Tests und Debugging                                               | -             | 180 min       |
 | 18.A  | 20.12.2024  | Team      | Tägliche Team-Sitzungen (5 Min/Tag)                                      | -             | 30 min total  |
 
+## 4.Realisieren
 
+| AP-№ | Datum       | Zuständig       | Geplante Zeit | Tatsächliche Zeit |
+|------|-------------|-----------------|---------------|-------------------|
+| 1.A  | 16.11.2024  | Marku           | 150 min       | 160 min           |
+| 2.A  | 07.11.2024  | Marku           | 160 min       | 155 min           |
+| 3.A  | 30.11.2024  | Angelov         | 180 min       | 190 min           |
+| 4.A  | 16.11.2024  | Jashari         | 150 min       | 150 min           |
+| 5.A  | 14.12.2024  | Team            | 120 min       | 125 min           |
+| 6.A  | 23.11.2024  | [Zuständiger]   | 120 min       | 90 min            |
+| 7.A  | 23.11.2024  | [Zuständiger]   | 150 min       | 90 min            |
+| 8.A  | 30.11.2024  | Jashari         | 180 min       | 180 min           |
+| 9.A  | 30.11.2024  | [Zuständiger]   | 120 min       | 70 min            |
+| 10.A | 21.11.2024  | Jashari         | 140 min       | 60 min            |
+| 11.A | 07.12.2024  | Marku           | 130 min       | 80 min            |
+| 12.A | 14.11.2024  | Angelov         | 150 min       | 60 min            |
+| 13.A | 07.12.2024  | Angelov         | 150 min       | 60 min            |
+| 14.A | 07.12.2024  | Jashari         | 150 min       | 70 min            |
+| 15.A | 21.12.2024  | Team            | 120 min       | 60 min            |
+| 16.A | 21.12.2024  | Team            | 120 min       | 90 min            |
+| 17.A | 21.12.2024  | Team            | 180 min       | 50 min            |
+| 18.A | 21.12.2024  | Team            | 30 min total  | 60 min            |
 
 
 
