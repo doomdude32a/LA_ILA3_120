@@ -100,20 +100,20 @@ Chipsystem, Animationen und Soundeffekte.
 | AP-№  | Frist       | Zuständig | Beschreibung                                                             | Zugehörige US | Geplante Zeit |
 |-------|-------------|-----------|--------------------------------------------------------------------------|---------------|---------------|
 | 1.A   | 15.11.2024  | Marku     | Registrierfunktion einbauen                                              | US-1          | 60 min       |
-| 2.A   | 15.11.2024  | Marku     | Anmeldefunktion einbauen                                                 | US-1          | 60 min       |
-| 3.A   | 06.11.2024  | Marku     | Interaktives Tutorial erstellen                                          | US-2          | 90 min       |
-| 4.A   | 29.11.2024  | Angelov   | Chipsystem für virtuelle Einsätze entwickeln                             | US-3          | 90 min       |
-| 5.A   | 15.11.2024  | Jashari   | Kartenmisch- und Ziehfunktion entwickeln                                 | US-4          | 70 min       |
-| 6.A   | 13.12.2024  | Team      | Fehlerbehandlung erweitern (z. B. leeres Kartendeck)                     | US-5          | 60 min       |
-| 7.A   | 22.11.2024  | Marku          | Punktestand berechnen und anzeigen                                       | US-6          | 60 min       |
-| 8.A   | 22.11.2024  | Angelov, Jashari          | „Double Down“ und „Split“ implementieren                                 | US-7          | 90 min       |
-| 9.A   | 29.11.2024  | Jashari   | Gewinn-/Verlustlogik prüfen und ausgeben                                 | US-8          | 60 min       |
-| 10.A   | 29.11.2024  | Jashari     | Spiel-Neustart-Funktion einbauen                                         | US-9          | 30 min       |
-| 11.A  | 20.11.2024  | Jashari   | In-Game-Währung entwickeln (Ein-/Auszahlungen)                           | US-10         | 60 min       |
-| 12.A  | 06.12.2024  | Marku     | Highscore-Liste implementieren                                           | US-11         | 40 min       |
-| 13.A  | 13.11.2024  | Angelov   | Einstellungsseite für Limits und Spieleranzahl hinzufügen                | US-12         | 60 min       |
-| 14.A  | 06.12.2024  | Angelov   | Animationen für Kartenbewegungen hinzufügen                              | US-13         | 90 min       |
-| 15.A  | 06.12.2024  | Marku  | Datenbankanbindung implementieren (Spielerprofile, Highscores, Stats)    | US-14         | 60 min       |
+| 2.A   | 15.11.2024  | Marku     | Anmeldefunktion einbauen                                                 | US-2          | 60 min       |
+| 3.A   | 06.11.2024  | Marku     | Interaktives Tutorial erstellen                                          | US-3          | 90 min       |
+| 4.A   | 29.11.2024  | Angelov   | Chipsystem für virtuelle Einsätze entwickeln                             | US-4          | 90 min       |
+| 5.A   | 15.11.2024  | Jashari   | Kartenmisch- und Ziehfunktion entwickeln                                 | US-5          | 70 min       |
+| 6.A   | 13.12.2024  | Team      | Fehlerbehandlung erweitern (z. B. leeres Kartendeck)                     | US-6          | 60 min       |
+| 7.A   | 22.11.2024  | Marku          | Punktestand berechnen und anzeigen                                       | US-7          | 60 min       |
+| 8.A   | 22.11.2024  | Angelov, Jashari          | „Double Down“ und „Split“ implementieren                                 | US-8          | 90 min       |
+| 9.A   | 29.11.2024  | Jashari   | Gewinn-/Verlustlogik prüfen und ausgeben                                 | US-9          | 60 min       |
+| 10.A   | 29.11.2024  | Jashari     | Spiel-Neustart-Funktion einbauen                                         | US-10          | 30 min       |
+| 11.A  | 20.11.2024  | Jashari   | In-Game-Währung entwickeln (Ein-/Auszahlungen)                           | US-11        | 60 min       |
+| 12.A  | 06.12.2024  | Marku     | Highscore-Liste implementieren                                           | US-12         | 40 min       |
+| 13.A  | 13.11.2024  | Angelov   | Einstellungsseite für Limits und Spieleranzahl hinzufügen                | US-13         | 60 min       |
+| 14.A  | 06.12.2024  | Angelov   | Animationen für Kartenbewegungen hinzufügen                              | US-14         | 90 min       |
+| 15.A  | 06.12.2024  | Marku  | Datenbankanbindung implementieren (Spielerprofile, Highscores, Stats)    | US-15         | 60 min       |
 | 16.A  | 20.12.2024  | Team      | Projektdokumentation fertigstellen                                       | -             | 180 min       |
 | 17.A  | 20.12.2024  | Team      | Mahara-Portfolio schreiben                                               | -             | 180 min       |
 | 18.A  | 20.12.2024  | Team      | Finale Tests und Debugging                                               | -             | 120 min       |
@@ -124,16 +124,17 @@ Chipsystem, Animationen und Soundeffekte.
 | AP-№ | Datum       | Zuständig       | Geplante Zeit | Tatsächliche Zeit |
 |------|-------------|-----------------|---------------|-------------------|
 | 1.A  | 16.11.2024  | Marku           | 150 min       | 160 min           |
-| 2.A  | 07.11.2024  | Marku           | 160 min       | 155 min           |
-| 3.A  | 30.11.2024  | Angelov         | 180 min       | 190 min           |
-| 4.A  | 16.11.2024  | Jashari         | 150 min       | 150 min           |
-| 5.A  | 14.12.2024  | Team            | 120 min       | 125 min           |
-| 6.A  | 23.11.2024  | [Zuständiger]   | 120 min       | 90 min            |
-| 7.A  | 23.11.2024  | [Zuständiger]   | 150 min       | 90 min            |
-| 8.A  | 30.11.2024  | Jashari         | 180 min       | 180 min           |
-| 9.A  | 30.11.2024  | [Zuständiger]   | 120 min       | 70 min            |
-| 10.A | 21.11.2024  | Jashari         | 140 min       | 60 min            |
-| 11.A | 07.12.2024  | Marku           | 130 min       | 80 min            |
+| 2.A  | 16.11.2024  | Marku           | 150 min       | 160 min           |
+| 3.A  | 07.11.2024  | Marku           | 160 min       | 155 min           |
+| 4.A  | 30.11.2024  | Angelov         | 180 min       | 190 min           |
+| 5.A  | 16.11.2024  | Jashari         | 150 min       | 150 min           |
+| 6.A  | 14.12.2024  | Team            | 120 min       | 125 min           |
+| 7.A  | 23.11.2024  | [Zuständiger]   | 120 min       | 90 min            |
+| 8.A  | 23.11.2024  | [Zuständiger]   | 150 min       | 90 min            |
+| 9.A  | 30.11.2024  | Jashari         | 180 min       | 180 min           |
+| 10.A  | 30.11.2024  | [Zuständiger]   | 120 min       | 70 min            |
+| 11.A | 21.11.2024  | Jashari         | 140 min       | 60 min            |
+| 12.A | 07.12.2024  | Marku           | 130 min       | 80 min            |
 | 12.A | 14.11.2024  | Angelov         | 150 min       | 60 min            |
 | 13.A | 07.12.2024  | Angelov         | 150 min       | 60 min            |
 | 14.A | 07.12.2024  | Jashari         | 150 min       | 70 min            |
