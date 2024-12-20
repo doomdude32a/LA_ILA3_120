@@ -96,6 +96,11 @@ Chipsystem, Animationen und Soundeffekte.
 
 ![Blackjack mit Anmeldefunktion](https://github.com/user-attachments/assets/9a6cc01c-567c-4f1e-9ea1-04a42690e7f9)
 
+#Mockup#
+![image](https://github.com/user-attachments/assets/164c0da8-8f79-4518-a1cd-7f0430243baf)
+
+![image](https://github.com/user-attachments/assets/13dfd7c0-052a-4ac1-a439-9330adcb7459)
+
 ## 2Planen
 
 | AP-№  | Frist       | Zuständig | Beschreibung                                                             | Zugehörige US | Geplante Zeit |
