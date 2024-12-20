@@ -63,12 +63,12 @@ Chipsystem, Animationen und Soundeffekte.
 | 5    | muss            | Als Spieler möchte ich Karten ziehen können.                                                                        |
 | 6    | muss            | Als Spieler möchte ich, dass ungültige Aktionen abgefangen werden, um Fehler zu vermeiden.                          |
 | 7    | muss            | Als Spieler möchte ich jederzeit meinen Punktestand der Karten sehen, um fundierte Spielentscheidungen zu treffen.             |
-| 8    | muss            | Als erfahrener Spieler möchte ich „Stand“ „Hit“ und „Split“ nutzen können.                                 |
+| 8    | muss            | Als erfahrener Spieler möchte ich „Stand“,„Double“, „Hit“ und „Split“ nutzen können.                                 |
 | 9    | muss            | Als Spieler möchte ich nach jeder Runde wissen, ob ich gewonnen oder verloren habe, um den Spielausgang zu verstehen. |
 | 10    | muss            | Als Spieler möchte ich jederzeit ein neues Spiel starten oder das aktuelle abbrechen können, um flexibel zu bleiben. |
 | 11   | kann            | Als Spieler möchte ich meine In-Game-Währung verwalten (Ein-/Auszahlungen), um ein authentisches Casino-Feeling zu erhalten. |
 | 12   | kann            | Als Spieler möchte ich eine Highscore-Liste sehen, um meine Leistung mit anderen Spielern zu vergleichen.          |
-| 13   | muss            | Als Spieler möchte ich Einstellungen (z. B. Limits, Spieleranzahl) vornehmen können, um das Spiel anzupassen.       |
+| 13   | muss            | Als Spieler möchte ich Einstellungen (z. B. Limits) vornehmen können, um das Spiel anzupassen.       |
 | 14   | kann            | Als Spieler möchte ich animierte Kartenbewegungen und visuelle Effekte sehen, um ein ansprechendes Spielerlebnis zu genießen. |
 | 15   | muss            | Als Entwickler möchte ich eine Datenbankanbindung, um Spielerprofile, Highscores und Statistiken langfristig zu speichern. |
 
@@ -137,7 +137,7 @@ Chipsystem, Animationen und Soundeffekte.
 | 11.A | 21.11.2024  | Jashari         | 60 min       | 60 min            |
 | 12.A | 07.12.2024  | Marku           | 40 min       | 80 min            |
 | 13.A | 14.11.2024  | Angelov         | 60 min       | 60 min            |
-| 14.A | 07.12.2024  | Angelov         | 90 min       | 60 min            |
+| 14.A | 07.12.2024  | Angelov         | 90 min       | 160 min            |
 | 15.A | 07.12.2024  | Jashari         | 60 min       | 70 min            |
 | 16.A | 21.12.2024  | Team            | 180 min       | 120 min            |
 | 17.A | 21.12.2024  | Team            | 180 min       | 200 min            |
@@ -159,18 +159,18 @@ Chipsystem, Animationen und Soundeffekte.
 | 5.1  | 20.12.2024  | OK       | Angelov     | US-5          |
 | 6.1  | 20.12.2024  | OK       | Team        | US-6          |
 | 7.1  | 20.12.2024  | OK       | Marku       | US-7          |
-| 8.1  | 20.12.2024  | OK       | Angelov     | US-8          |
+| 8.1  | 20.12.2024  | NOK   | Angelov     | US-8          |
 | 9.1  | 20.12.2024  | OK       | Jashari     | US-9          |
 | 10.1  | 20.12.2024  | OK       | Marku       | US-10          |
 | 11.1 | 20.12.2024  | OK       | Team        | US-11         |
 | 12.1 | 20.12.2024  | OK       | Angelov     | US-12         |
 | 13.1 | 20.12.2024  | OK       | Team        | US-13         |
-| 14.1 | 20.12.2024  | OK       | Jashari     | US-14         |
+| 14.1 | 20.12.2024  | NOK       | Jashari     | US-14         |
 | 15.1 | 20.12.2024  | OK       | Marku       | US-15         |
 
 ## 7. Teamsitzungsbericht
 
-| Datum       | Erledigte Arbeitspakete                                                                                                                | Nächste Arbeitspakete                                                                                               | Verzögerungen | Änderungen                                                                           | Pro                                                           | Con                                              |
+| Datum       | Erledigte Arbeitspakete                                                                                                                | Nächste Arbeitspakete                                                | Verzögerungen | Änderungen                                                                           | Pro                                                           | Con                                              |
 |------|---------------|---------------------------------------------------------------------------------------------------------------------|---------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------|
 | 08.11.2024  | Das Projekt wurde ausgewählt, aufgeteilt und Informationen wurden eingeholt.| Erste Umsetzungsschritte einleiten, Basis-Gameplay entwickeln | Keine         | Keine    | Klarer Projektplan, klare Rollenverteilung                     | Noch keine Umsetzung erfolgt                      |
 | 15.11.2024  | Grundstruktur erstellt, Basis-Gameplay (Karten ziehen, Punkte berechnen)                                            | „Double Down“- & „Split“-Funktionen, UI-Optimierungen, Testen & Debugging, Punktesystem & Highscore-Liste            | Keine         | Keine                                                                                | Solide Basis und erster Spielablauf                              | Noch kein erweitertes Gameplay (Double Down, Split)            |
